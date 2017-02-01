@@ -9,7 +9,7 @@ class Runner implements Runnable{
 			System.out.println("Number: " + i);
 			
 			try {
-				Thread.sleep(100);
+				Thread.sleep(100); // puts the thread to sleep
 			} catch (InterruptedException e) {
 				e.printStackTrace();
 			}
