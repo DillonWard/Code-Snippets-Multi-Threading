@@ -1,4 +1,4 @@
-package multithreading.three;
+package multithreading.basicThree;
 
 public class App {
 

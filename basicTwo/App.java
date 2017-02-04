@@ -1,4 +1,4 @@
-package multithreading.two;
+package multithreading.basicTwo;
 
 class Runner implements Runnable{
 

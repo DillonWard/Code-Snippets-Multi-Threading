@@ -1,4 +1,4 @@
-package multithreading.four;
+package multithreading.threadSync;
 
 import java.util.Scanner;
 

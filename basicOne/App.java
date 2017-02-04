@@ -1,4 +1,4 @@
-package multithreading.one;
+package multithreading.basicOne;
 
 class Runner extends Thread{
 

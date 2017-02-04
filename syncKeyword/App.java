@@ -1,4 +1,4 @@
-package multithreading.five;
+package multithreading.syncKeyword;
 
 public class App {
 	
