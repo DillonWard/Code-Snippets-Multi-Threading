@@ -5,3 +5,4 @@ The repository will contain examples of:
 1. Basic Threads
 2. Basic Thread Synchronization
 3. Synchronized Keyword
+4. Multiple Locks; Using Synchronized Code Blocks
