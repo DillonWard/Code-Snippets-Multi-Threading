@@ -4,10 +4,39 @@ The repository will contain examples of:
 
 1. Basic Threads
 2. Basic Thread Synchronization
-3. Synchronized Keyword
-4. Multiple Locks
-5. Thread Pools
-6. Executor Service
-7. Countdown Latches
+3. Multiple Locks
+4. Thread Pools
+5. Executor Service
+6. Countdown Latches
+
+### Multi-Threading
+Multi Threading in Java refers to when two or more processes are running concurrently in one single program. Multi-Threading means that multiple lines of a program can be executed at the same time.
+Thread classes may contain Runner classes which can `implements` Runnable (a run method) or `extend` Thread.
+
+```
+class Runner implements Runnable{
+    
+    public void run(){
+    
+    }
+}
+
+class Runner extends Thread{
+
+    public void run(){
+    
+    }
+}
+
+```
+### Thread Synchronization
+Thread Synchronization is used in a situation where multiple threads are trying to access the same resource at the same time, which can sometimes cause some issues where one thread used up a resource more than another. Threads can use the `synchronized` for synchronization to occur. 
+
+```
+public synchronized void increment(){
+		count++;
+	}
+```
+This class will be accessed and used by two methods synchronously.
 
 [Reference](https://www.youtube.com/user/caveofprogramming)
