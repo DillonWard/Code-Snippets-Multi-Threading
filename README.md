@@ -39,4 +39,10 @@ public synchronized void increment(){
 ```
 This class will be accessed and used by two methods synchronously.
 
+### Locks
+A lock in Java is used for controlling access to a shared resource by multiple threads, while one thread is using a resource the other is locked out and cannot use it.
+
+### Thread Pools
+A Thread pool is a collection of threads that execute asynchronously. Thread pools are used to reduce the number of application threads within a class, and can be used for managing the Threads.
+
 [Reference](https://www.youtube.com/user/caveofprogramming)
