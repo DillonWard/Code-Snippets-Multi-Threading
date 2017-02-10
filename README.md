@@ -8,5 +8,6 @@ The repository will contain examples of:
 4. Multiple Locks
 5. Thread Pools
 6. Executor Service
+7. Countdown Latches
 
 [Reference](https://www.youtube.com/user/caveofprogramming)
