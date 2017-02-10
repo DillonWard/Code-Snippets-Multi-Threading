@@ -6,5 +6,7 @@ The repository will contain examples of:
 2. Basic Thread Synchronization
 3. Synchronized Keyword
 4. Multiple Locks
+5. Thread Pools
+6. Executor Service
 
 [Reference](https://www.youtube.com/user/caveofprogramming)
