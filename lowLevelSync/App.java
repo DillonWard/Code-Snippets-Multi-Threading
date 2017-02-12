@@ -1,10 +1,12 @@
-package multithreading.waitAndNotify;
+package multithreading.lowLevelSync;
+
+import multithreading.lowLevelSync.Process;
 
 public class App {
 
 	public static void main(String[] args) throws InterruptedException {
 		// a processor object is created
-		final Process processor = new Process();
+		final Process process = new Process();
 		
 		/*
 		 * 2 threads are created
@@ -16,7 +18,7 @@ public class App {
 			
 			public void run(){
 				try {
-					processor.produce();
+					process.produce();
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}
@@ -27,7 +29,7 @@ public class App {
 			
 			public void run(){
 				try {
-					processor.consume();
+					process.consume();
 				} catch (InterruptedException e) {
 					e.printStackTrace();
 				}

@@ -2,7 +2,7 @@ package multithreading.waitAndNotify;
 
 import java.util.Scanner;
 
-public class Processor {
+public class Process {
 
 	/*
 	 * the first method (produce) is called, which contains a wait
@@ -12,6 +12,7 @@ public class Processor {
 	 * waiting for return key
 	 * the wait is notified and the first thread is continued
 	 */
+	
 	public void produce() throws InterruptedException{
 		synchronized (this) {
 			System.out.println("Procuder thread running.");
