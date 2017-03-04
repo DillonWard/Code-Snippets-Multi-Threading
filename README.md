@@ -8,6 +8,14 @@ The repository will contain examples of:
 4. Thread Pools
 5. Executor Service
 6. Countdown Latches
+7. Array Blocking Queue
+8. Wait and Notify
+9. Low Level Synchronization
+10. Re-Entrant Locks
+11. Deadlock
+12. Semaphores
+13. Callable and Future
+14. Interrupting Threads 
 
 ### Multi-Threading
 Multi Threading in Java refers to when two or more processes are running concurrently in one single program. Multi-Threading means that multiple lines of a program can be executed at the same time.
